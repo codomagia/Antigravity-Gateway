@@ -1,0 +1,20 @@
+## Source Code & Internal (Closed Source - Local Only)
+AntigravityGateway SC/
+"Публикация в git"/
+
+## Binaries & Scripts (Published via GitHub Releases)
+*.exe
+*.bat
+*.zip
+**/bin/
+**/obj/
+
+## IDE & Temp
+.vs/
+*.user
+
+## OS Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
