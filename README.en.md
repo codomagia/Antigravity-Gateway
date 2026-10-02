@@ -8,6 +8,7 @@
 
 **Version:** 1.0.0  
 **Author:** [CodoMagia](https://github.com/codomagia)  
+**Community & Support (Telegram):** [t.me/AntigravityGateway](https://t.me/AntigravityGateway)  
 **Support the author:** [Boosty](https://boosty.to/codomagia/donate)
 
 Pre-built releases are available in [Releases](https://github.com/codomagia/Antigravity-Gateway/releases).

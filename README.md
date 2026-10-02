@@ -8,6 +8,7 @@
 
 **Версия:** 1.0.0  
 **Автор:** [CodoMagia](https://github.com/codomagia)  
+**Обсуждение и помощь (Telegram):** [t.me/AntigravityGateway](https://t.me/AntigravityGateway)  
 **Поддержать автора:** [Boosty](https://boosty.to/codomagia/donate)
 
 Готовые сборки доступны во вкладке [Releases](https://github.com/codomagia/Antigravity-Gateway/releases).
