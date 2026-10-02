@@ -10,7 +10,7 @@
 **Author:** [CodoMagia](https://github.com/codomagia)  
 **Support the author:** [Boosty](https://boosty.to/codomagia/donate)
 
-Pre-built releases are available in [Releases](https://github.com/codomagia/AntigravityGateway/releases).
+Pre-built releases are available in [Releases](https://github.com/codomagia/Antigravity-Gateway/releases).
 
 ---
 
@@ -43,7 +43,7 @@ Because Google Antigravity deliberately bypasses system-wide secure connections 
 
 ### Quick Start:
 
-1. Download `Antigravity-Gateway-1.0.0.zip` from [Releases](https://github.com/codomagia/AntigravityGateway/releases/latest).
+1. Download `Antigravity-Gateway-1.0.0.zip` from [Releases](https://github.com/codomagia/Antigravity-Gateway/releases/latest).
 2. Unpack the archive into a permanent folder.
 3. Launch `Antigravity Gateway.exe`.
 4. Click **«🔍 Найти клиент»** (Find client), then **«📌 Создать ярлык»** (Create shortcut).

@@ -10,7 +10,7 @@
 **Автор:** [CodoMagia](https://github.com/codomagia)  
 **Поддержать автора:** [Boosty](https://boosty.to/codomagia/donate)
 
-Готовые сборки доступны во вкладке [Releases](https://github.com/codomagia/AntigravityGateway/releases).
+Готовые сборки доступны во вкладке [Releases](https://github.com/codomagia/Antigravity-Gateway/releases).
 
 ---
 
@@ -43,7 +43,7 @@
 
 ### Быстрый старт:
 
-1. Скачайте архив `Antigravity-Gateway-1.0.0.zip` в разделе [Releases](https://github.com/codomagia/AntigravityGateway/releases/latest).
+1. Скачайте архив `Antigravity-Gateway-1.0.0.zip` в разделе [Releases](https://github.com/codomagia/Antigravity-Gateway/releases/latest).
 2. Распакуйте архив в постоянную папку.
 3. Запустите `Antigravity Gateway.exe`.
 4. Нажмите **«🔍 Найти клиент»**, затем **«📌 Создать ярлык»**.
