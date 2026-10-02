@@ -48,6 +48,8 @@ Because Google Antigravity deliberately bypasses system-wide secure connections 
 3. Launch `Antigravity Gateway.exe`.
 4. Click **«🔍 Найти клиент»** (Find client), then **«📌 Создать ярлык»** (Create shortcut).
 
+> **Protocol Tip (HTTP vs SOCKS5):** If routing through `http://` in your client causes connection drops with Google Gemini API, choose a **SOCKS5** preset from the dropdown (e.g. `socks5://127.0.0.1:10808` for Happ or `socks5://127.0.0.1:2080` for Sing-box/Hiddify). SOCKS5 tunnels raw TCP streams without breaking gRPC connections.
+
 > **Note:** No installation required. Do not run directly from inside the ZIP file.
 
 ---
