@@ -6,12 +6,12 @@
 
 **Antigravity Gateway** is a launcher to run Google Antigravity through YOUR preferred secure connection or proxy (Happ, Hiddify, v2ray, Xray, Clash, Nekoray, Sing-box, AdGuard, WireGuard, etc.), ensuring stable connectivity without connection drops or Error 400.
 
-**Version:** 1.0.0  
+**Version:** 1.3.1  
 **Author:** [CodoMagia](https://github.com/codomagia)  
-**Community & Support (Telegram):** [t.me/AntigravityGateway](https://t.me/AntigravityGateway)  
+**Community & Support (Telegram):** [t.me/codomagia/2](https://t.me/codomagia/2)  
 **Support the author:** [Boosty](https://boosty.to/codomagia/donate)
 
-Pre-built releases are available in [Releases](https://github.com/codomagia/Antigravity-Gateway/releases).
+Download in [Releases](https://github.com/codomagia/Antigravity-Gateway/releases).
 
 ---
 
@@ -44,7 +44,7 @@ Because Google Antigravity deliberately bypasses system-wide secure connections 
 
 ### Quick Start:
 
-1. Download `Antigravity-Gateway-1.0.0.zip` from [Releases](https://github.com/codomagia/Antigravity-Gateway/releases/latest).
+1. Download `Antigravity-Gateway-1.3.1.zip` from [Releases](https://github.com/codomagia/Antigravity-Gateway/releases/latest).
 2. Unpack the archive into a permanent folder.
 3. Launch `Antigravity Gateway.exe`.
 4. Click **«🔍 Найти клиент»** (Find client), then **«📌 Создать ярлык»** (Create shortcut).

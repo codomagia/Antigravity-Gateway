@@ -6,12 +6,12 @@
 
 **Antigravity Gateway** — это лаунчер для запуска Antigravity через ВАШЕ любое удобное вам защищённое соединение (Happ, Hiddify, v2ray, Xray, Clash, Nekoray, Sing-box, AdGuard, WireGuard и др.), обеспечивая стабильное соединение без разрывов и ошибок 400.
 
-**Версия:** 1.0.0  
+**Версия:** 1.3.1  
 **Автор:** [CodoMagia](https://github.com/codomagia)  
-**Обсуждение и помощь (Telegram):** [t.me/AntigravityGateway](https://t.me/AntigravityGateway)  
+**Обсуждение и помощь (Telegram):** [t.me/codomagia/2](https://t.me/codomagia/2)  
 **Поддержать автора:** [Boosty](https://boosty.to/codomagia/donate)
 
-Готовые сборки доступны во вкладке [Releases](https://github.com/codomagia/Antigravity-Gateway/releases).
+Скачать в разделе [Releases](https://github.com/codomagia/Antigravity-Gateway/releases).
 
 ---
 
@@ -44,7 +44,7 @@
 
 ### Быстрый старт:
 
-1. Скачайте архив `Antigravity-Gateway-1.0.0.zip` в разделе [Releases](https://github.com/codomagia/Antigravity-Gateway/releases/latest).
+1. Скачайте архив `Antigravity-Gateway-1.3.1.zip` в разделе [Releases](https://github.com/codomagia/Antigravity-Gateway/releases/latest).
 2. Распакуйте архив в постоянную папку.
 3. Запустите `Antigravity Gateway.exe`.
 4. Нажмите **«🔍 Найти клиент»**, затем **«📌 Создать ярлык»**.
