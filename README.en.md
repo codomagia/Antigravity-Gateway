@@ -4,12 +4,13 @@
 
 <img align="right" src="assets/logo.png" alt="Antigravity Gateway" width="220" height="220">
 
-**Antigravity Gateway** is a launcher to run Google Antigravity through YOUR preferred secure connection or proxy (Happ, Hiddify, v2ray, Xray, Clash, Nekoray, Sing-box, AdGuard, WireGuard, etc.), ensuring stable connectivity without connection drops or Error 400.
+**Antigravity Gateway** connects Antigravity, Antigravity IDE and CLI through YOUR preferred secure connection (Happ, Hiddify, v2ray, Xray, Clash, Nekoray, Sing-box, AdGuard, WireGuard and others), providing stable connectivity without drops or Error 400.
 
-**Version:** 1.3.1  
+**Version:** 2.0.6  
 **Author:** [CodoMagia](https://github.com/codomagia)  
 **Community & Support (Telegram):** [t.me/codomagia/2](https://t.me/codomagia/2)  
-**Support the author:** [Boosty](https://boosty.to/codomagia/donate)
+**Support the author:** [Boosty](https://boosty.to/codomagia/donate)  
+**Video review:** [YouTube](https://www.youtube.com/watch?v=ufLqwjEoKAE)
 
 Download in [Releases](https://github.com/codomagia/Antigravity-Gateway/releases).
 
@@ -21,46 +22,57 @@ Download in [Releases](https://github.com/codomagia/Antigravity-Gateway/releases
 
 ---
 
-### Why is this method required?
+### Why use Antigravity Gateway?
 
-Because Google Antigravity deliberately bypasses system-wide secure connections by default. This launcher securely instructs Antigravity to route its internet traffic through your chosen secure connection.
-
-### Why choose this launcher over other solutions?
-
-- **Zero file modifications:** It does **NOT** modify Antigravity binaries or any system files. All routing parameters are passed natively at startup.
-- **Zero background overhead:** Immediately after launching Antigravity, the launcher exits and consumes zero RAM.
-- **Clean for antivirus software:** Since no memory injection or file patching is used, antivirus tools do not trigger false positives. No exclusion rules needed.
-- **Traffic isolation:** Only Antigravity is routed through the secure connection. Browsers, games, and other apps run directly at full speed.
+- **Launch as usual:** after connecting Antigravity Gateway, launch IDE, AGI and Antigravity as usual.
+- **Background operation:** close the window or minimize it to the tray while the connected gateway keeps running; you can also enable the interface to start in the tray at Windows sign-in independently.
+- **Your choice:** use an available secure connection or the built-in proxy client.
+- **Does not modify files** belonging to Antigravity or any other files. Antivirus software does not produce false positives with this method, so you do not need to add the program to antivirus exclusions.
+- **Traffic isolation:** Antigravity Gateway routes Antigravity requests through the selected connection without changing browser or other application settings.
 
 ---
 
 ### Key Features:
 
-- **1-Click Auto-Discovery:** Instantly detects running proxy clients or active system secure connections.
-- **Desktop Shortcut with Pre-Flight Splash Check:** Tests gateway reachability before starting: launches instantly if ready, or prompts to enable the secure connection if offline.
-- **Real-Time Diagnostics:** Measures latency (ping), verifies Google Gemini server connectivity, and detects region/bot restrictions.
+- **Client discovery:** find available local proxy clients.
+- **One-click connection:** configure applications and gateway startup.
+- **Diagnostics:** external IP and country, Google server checks and an event log.
+- **Desktop shortcut:** open Antigravity Gateway settings quickly.
+- **Portable mode:** optionally keep settings next to the application.
+- **Management console:** connect, disconnect, choose a proxy and check diagnostics using a menu or commands.
 
 ---
 
 ### Quick Start:
 
-1. Download `Antigravity-Gateway-1.3.1.zip` from [Releases](https://github.com/codomagia/Antigravity-Gateway/releases/latest).
-2. Unpack the archive into a permanent folder.
-3. Launch `Antigravity Gateway.exe`.
-4. Click **«🔍 Найти клиент»** (Find client), then **«📌 Создать ярлык»** (Create shortcut).
+> **Updating:** disconnect Antigravity Gateway in the old version and close its interface before replacing files. Connect the gateway again after updating.
 
-> **Protocol Tip (HTTP vs SOCKS5):** If routing through `http://` in your client causes connection drops with Google Gemini API, choose a **SOCKS5** preset from the dropdown (e.g. `socks5://127.0.0.1:10808` for Happ or `socks5://127.0.0.1:2080` for Sing-box/Hiddify). SOCKS5 tunnels raw TCP streams without breaking gRPC connections.
+1. Download Antigravity-Gateway-2.0.6-windows-x64.zip from [Releases](https://github.com/codomagia/Antigravity-Gateway/releases).
+2. Unpack the archive into a permanent folder and start your secure connection.
+3. Run Antigravity Gateway.exe.
+4. Select a client or enter a proxy address and click **«Подключить Gateway»** (Connect Antigravity Gateway).
+5. Open the desired application normally. If Antigravity, IDE or CLI are already running, close their processes in Task Manager and restart them, or restart your PC. Click **«Отключить Gateway»** to disconnect.
 
-> **Note:** No installation required. Do not run directly from inside the ZIP file.
+> **Protocol tip:** if an HTTP proxy does not work well, try a SOCKS5 proxy provided by your client.
+
+> **Note:** No installation required. Do not run from inside the ZIP. Apps may need restarting; in some cases Windows may need restarting.
+
+---
+
+## Settings and diagnostics
+
+Settings are stored in the AntigravityGateway user profile folder by default. For portable settings, disconnect Antigravity Gateway, close its window and copy that folder beside the application as data.
 
 ---
 
 ## Requirements
 
-- **OS:** Windows 10 or Windows 11 (x64)
-- **Framework:** .NET Framework 4.7.2 or newer (built into Windows 10/11)
-- **Target Application:** Google Antigravity (Installed or Portable)
-- **Supported Clients:** Happ, Hiddify, Clash (Verge / Meta / Nyanpasu), Xray / V2Ray, Nekoray, Sing-box, AdGuard, WireGuard, and any SOCKS5 / HTTP proxy.
+Linux console builds are available for x64 and ARM64. Startup and generation were tested on Ubuntu x64; the ARM64 build has been cross-compiled only. The Linux archives include usage instructions.
+
+- **OS:** Windows 10 or Windows 11 (x64).
+- **Framework:** .NET Framework 4.7.2 or newer.
+- **Applications:** Antigravity, Antigravity IDE or CLI.
+- **Connection:** a secure connection, a running proxy client, or an HTTP, HTTPS or SOCKS5 proxy.
 
 ---
 
